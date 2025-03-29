@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubh Chauhan Potteries</title>
+    <link rel="stylesheet" href="web.CSS">
+    <link rel="icon" type="image/png" href="C:\Users\Chetan\OneDrive\Desktop\visiting card diya Compleate front.jpg(1)(1).png">
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #f0e6d6, #d2b48c);
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #1f1107;
+            color: #fff;
+            padding: 1.5rem 1rem;
+            text-align: center;
+        }
+        header h2,
+        header h3 {
+            margin: 0.5rem 0;
+            font-family: Verdana, sans-serif;
+        }
+        .header-img {
+            max-width: 100%;
+            height: auto;
+            margin: 1rem 0;
+        }
+        .buttons {
+            margin: 2rem 0;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #54493b;
+            color: #fff;
+            padding: 1rem 2rem;
+            margin: 0.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #43322f;
+        }
+        main {
+            padding: 1rem;
+        }
+        section {
+            margin-bottom: 3rem;
+        }
+        h1, h2 {
+            text-align: center;
+            border: 5px solid #752f37;
+            padding: 0.5rem;
+        }
+        h2 {
+            font-size: 1.8rem;
+            margin-top: 1rem;
+        }
+        h3 {
+            text-align: center;
+            font-size: 1.4rem;
+            margin: 1rem 0;
+            border-bottom: 2px solid #752f37;
+            padding-bottom: 0.5rem;
+        }
+        p {
+            font-size: 1rem;
+            font-family: "Courier New", Courier, monospace;
+            text-align: center;
+            padding: 0 1rem;
+        }
+        ::-webkit-scrollbar{
+            display: none;
+        }
+        /* Image Slider Styles */
+        .image-slider {
+            display: flex;
+            gap: 1rem;
+            overflow-x: auto;
+            margin-top: 1rem;
+            padding: 1rem 0;
+        }
+        .image-slider img {
+            border: 5px solid #2e2722;
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+        .image-slider img:hover {
+            transform: scale(1.05);
+        }
+        /* Gallery Styles */
+        .gallery img {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 1rem auto;
+        }
+        /* Footer */
+        footer {
+            background-color: #1f1107;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        /* Responsive Styles */
+        @media (min-width: 768px) {
+            main {
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+            .products {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 2rem;
+            }
+            .product-category {
+                flex: 1 1 calc(50% - 2rem);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>SHUBH CHAUHAN POTTERIES</h2>
+        <img src="C:\Users\Chetan\OneDrive\Desktop\background_image2.jpg" alt="Showcase Image" width = "100%" class="header-img">
+        <h3>About SHUBH CHAUHAN POTTERIES</h3>
+        <p><strong>
+            Welcome to SHUBH CHAUHAN POTTERIES, your premier destination for exquisite clay DIYAS and cooking utensils.
+            With over 20 years of experience, we craft and sell a diverse range of handcrafted clay products to add a
+            touch of tradition to any space.
+        </strong></p>
+        <div class="buttons">
+            <a href="C:\Users\Chetan\OneDrive\Desktop\2025_ShubhChauhanPotteries_diyas.ppt.pptm" class="btn">
+                Designs of Classic DIYAS
+            </a>
+            <a href="C:\Users\Chetan\OneDrive\Desktop\shubhchauhanpotteries.utensils.pptx" class="btn">
+                Catering & Cooking Designs
+            </a>
+        </div>
+        <h2>Address: Dharavi, 90-feet road, Shop No. 3</h2>
+    </header>
+
+    <main>
+        <!-- Clay DIYAS Section -->
+        <section id="lamps">
+            <h2>Clay DIYAS</h2>
+            <h3>About DIYAS Manufactured at SHUBH CHAUHAN POTTERIES</h3>
+            <p>
+                Our handcrafted DIYAS provide a warm, inviting glow perfect for everyday use and special occasions.
+                Choose from classic or contemporary styles to complement your decor.
+            </p>
+            <img src="C:\Users\Chetan\Downloads\WhatsApp Image 2024-12-09 at 18.24.17.jpeg" alt="Clay DIYAS Collection" width="100%" height="auto">
+            <div class="image-slider" id="lamp-slider">
+                <img src="C:\Users\Chetan\Downloads\WhatsApp Image 2024-12-09 at 11.05.29.jpeg" alt="4 PCS DIYA SET">
+                <img src="C:\Users\Chetan\Downloads\WhatsApp Image 2024-12-09 at 12.13.33.jpeg" alt="Elegant DIYA">
+                <img src="C:\Users\Chetan\Downloads\WhatsApp Image 2024-12-09 at 12.18.03.jpeg" alt="Modern DIYA">
+                <img src="C:\Users\Chetan\Downloads\WhatsApp Image 2024-12-09 at 12.21.13.jpeg" alt="Traditional DIYA">
+                <img src="C:\Users\Chetan\Downloads\WhatsApp Image 2024-12-09 at 12.28.49.jpeg" alt="Traditional DIYA">
+                <img src="C:\Users\Chetan\Downloads\WhatsApp Image 2024-12-09 at 12.35.12.jpeg" alt="Traditional DIYA">
+                <img src="C:\Users\Chetan\Downloads\WhatsApp Image 2024-12-09 at 12.40.49.jpeg" alt="Traditional DIYA">
+
+
+
+            </div>
+            <div class="image-slider" id="lamp-slider2">
+                <img src="C:\Users\Chetan\Downloads\WhatsApp Image 2024-12-09 at 13.18.43.jpeg" alt="Wall Piece DIYA">
+                <img src="C:\Users\Chetan\Downloads\WhatsApp Image 2024-12-09 at 13.26.06.jpeg" alt="Designer DIYA">
+                <img src="C:\Users\Chetan\Downloads\WhatsApp Image 2024-12-09 at 13.31.22.jpeg" alt="Peacock Stand DIYA">
+                <img src="C:\Users\Chetan\Downloads\WhatsApp Image 2024-12-09 at 13.44.03.jpeg" alt="Akhad DIYA">
+                <img src="C:\Users\Chetan\Downloads\WhatsApp Image 2024-12-09 at 13.54.02.jpeg" alt="Rath DIYA">
+                <img src="C:\Users\Chetan\Downloads\WhatsApp Image 2024-12-09 at 14.02.11.jpeg" alt="Rath DIYA">
+
+            </div>
+        </section>
+
+        <!-- Cooking Utensils Section -->
+        <section id="utensils">
+            <h2>Earthen Clay Catering & Cooking Utensils</h2>
+            <h3>About Cooking and Catering Utensils at SHUBH CHAUHAN POTTERIES</h3>
+            <p>
+                Discover our exceptional range of clay cooking utensils designed to enhance your culinary experience.
+                Each piece is crafted for durability, heat retention, and authentic style—perfect for both professional
+                chefs and home cooks.
+            </p>
+            <img src="C:\Users\Chetan\OneDrive\Desktop\shop website things\web_cooking.jpg" width="100%" height="auto">
+            <h2>Premium Collection Insight</h2>
+            <div class="image-slider" id="utensil-slider">
+                <img src="C:\Users\Chetan\OneDrive\Desktop\shop website things\cookingpot_red.jpg" alt="Clay Water Pot">
+                <img src="C:\Users\Chetan\OneDrive\Desktop\shop website things\cookingpot_black.jpg" alt="Cooking Pot">
+                <img src="C:\Users\Chetan\OneDrive\Desktop\shop website things\tavdi_black.jpg" alt="Clay Water Bottle">
+                <img src="C:\Users\Chetan\OneDrive\Desktop\shop website things\watterbottle_red.jpg" alt="Clay Jug">
+                <img src="C:\Users\Chetan\OneDrive\Desktop\shop website things\redcup.jpg" alt="Tea Glass (Kullad)">
+                <img src="C:\Users\Chetan\OneDrive\Desktop\shop website things\kullad_red.jpg" alt="Clay Cup">
+                <img src="C:\Users\Chetan\OneDrive\Desktop\shop website things\dhoopdani_red.jpg" alt="Tulsi Vrindavan">
+                <img src="C:\Users\Chetan\OneDrive\Desktop\shop website things\curdpot_red.jpg" alt="CURD POT">
+                <img src="C:\Users\Chetan\OneDrive\Desktop\shop website things\TULSI_VRINDAVAN.jpg" alt="CURD POT">
+            </div>
+        </section>
+
+        <!-- Visiting Card Section -->
+        <section id="visiting-card">
+            <h2>Our Visiting Card</h2>
+            <div class="gallery">
+                <img src="C:\Users\Chetan\OneDrive\Desktop\visiting card diya Compleate front.jpg.png" alt="Visiting Card Front">
+                <img src="C:\Users\Chetan\OneDrive\Desktop\visiting card diya Compleate reverse.jpg.png" alt="Visiting Card Back">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Shubh Chauhan Potteries. All rights reserved.</p>
+    </footer>
+
+    <script src="web2.JS"></script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    background: linear-gradient(to bottom, #f0e6d6, #d2b48c);
+    color: #333;
+    max-width: 1200px;
+    overflow-x: hidden;
+    text-align: center; /* Center text within the body */
+}
+
+header {
+    background-color: #1f1107;
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem; /* Adjust for mobile */
+}
+
+.buttons {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    background-color: #54493b;
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    margin: 0.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 1.2rem; /* Adjust for mobile */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.product-category {
+    width: 90%;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.product-category h2 {
+    border: 5px solid #752f37;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: verdana;
+    box-sizing: border-box;
+    font-size: 1.8rem; /* Adjust for mobile */
+}
+
+.product-category h2 {
+    border-bottom: 2px solid #752f37;
+    padding-bottom: 0.5rem;
+    font-family: verdana;
+    font-size: 1.5rem; /* Adjust for mobile */
+}
+
+.product-category h3 {
+    border: 5px solid #752f37;
+    padding: 0.5rem;
+    font-family: verdana;
+    font-size: 1.2rem; /* Adjust for mobile */
+    box-sizing: border-box;
+}
+
+.product-category p1 {
+    font-size: 1rem; /* Adjust for mobile */
+    font-family: courier;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.image-slider {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.image-slider img {
+    border: 5px solid #2e2722;
+    width: 100%;
+    height: auto;
+    display: none;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.image-slider img.active {
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #1f1107;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 1rem; /* Adjust for mobile */
+}
+
+/* Media query for smaller screens (e.g., mobile phones) */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem; /* Smaller size for very small screens */
+    }
+
+    .btn {
+        font-size: 1rem; /* Smaller size for very small screens */
+    }
+
+    .product-category h2 {
+        font-size: 1.3rem; /* Smaller size for very small screens */
+    }
+
+    .product-category h3 {
+        font-size: 1.1rem; /* Smaller size for very small screens */
+    }
+
+    .product-category p1 {
+        font-size: 0.9rem; /* Smaller size for very small screens */
+    }
+
+    footer {
+        font-size: 0.9rem; /* Smaller size for very small screens */
+    }
+}
